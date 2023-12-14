@@ -1,0 +1,79 @@
+body { /* this edits all of our stuff under the website since it's under body*/
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: white;
+    background-color: darkslategray; }
+
+
+
+a:visited {color: pink;}
+a {color: rgb(219, 106, 125);}
+
+li { /* this edits our lists and our lists only*/
+    font-size: 14px;
+font-style: italic;
+font-weight: normal;}
+
+.Bold {font-weight: bold;}
+
+
+
+.common {
+    /* background-color: #ccc; */
+    border: 2px solid white;
+    position: absolute;
+}
+
+.header {
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 100px;
+    z-index: 2;
+    border-bottom: solid 1px white;
+}
+
+.leftmenu {
+    top: 114px;
+    left: 5px;
+    width: 100px;
+    bottom: -1050px;
+    z-index: 1;
+    padding-top: 40px;
+    border-right: solid 1px gray;
+}
+
+.Body {
+    top: 114px;
+    left: 114px;
+    right: 114px;
+    bottom: -1050px;
+    padding-top: 40px;
+    padding-right: 5px;
+
+}
+
+.rightmenu {
+    top: 114px;
+    right: 5px;
+    width: 100px;
+    bottom: -1050px;
+    border-left: solid 1px gray;
+    padding-left: 5px;
+}
+
+.footer {
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    height: 25px;
+    font-size: 8px;
+    color: #999;
+    text-align: center;
+    padding-top: 15px;
+    position: fixed;
+}
+
+.subheader {float: right;}
+
+.justify {text-align: justify;}
